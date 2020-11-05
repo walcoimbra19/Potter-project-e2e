@@ -1,0 +1,185 @@
+[
+    {
+        "port": "Design:EntityPO:1-main",
+        "commands": [
+            {
+                "template": "Template:EntityPO:1",
+                "output": "{{project.id}}/src/test/javascript/e2e/entities/{{lower name}}/{{lower name}}-po.ts"
+            }
+        ]
+    },
+    {
+        "port": "element-field-id",
+        "commands": [
+            {
+                "template": "Template:ElementFieldId:1"
+            }
+        ]
+    },
+
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "string"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "integer"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "long"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "bigDecimal"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "float"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "double"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "localDate"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "zonedDateTime"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "duration"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "UUID"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "blob"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "anyBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "imageBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "textBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPO:1"
+            }
+        ]
+    },
+    {
+        "port": "getter-and-set-entity-po",
+        "selector": {
+            "type": "boolean"
+        },
+        "commands": [
+            {
+                "template": "Template:GetterAndSetEntityPOBoolean:1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+{
+    "team": {
+      "id": "com.example.protractor",
+      "description": "e2e protractor test"
+    },
+    "project": {
+      "id": "e2eprotractor1",
+      "description": "e2e protractor 3",
+      "version": "0.0.1",
+      "deploy": "docker"
+    },
+    "entities": [
+      {
+        "id": "001",
+        "name": "generic",
+        "labels": {
+          "singular": "generic",
+          "plural": "generics"
+        },
+        "properties": [
+          {
+            "name": "fieldString",
+            "label": "FieldString",
+            "type": "string"
+          },
+          {
+            "name": "fieldInteger",
+            "label": "FieldInteger",
+            "type": "integer"
+          },
+          {
+            "name": "fieldLong",
+            "label": "FieldLong",
+            "type": "long"
+          },
+          {
+            "name": "fieldBigDecimal",
+            "label": "FieldBigDecimal",
+            "type": "bigDecimal"
+          },
+          {
+            "name": "fieldFloat",
+            "label": "FieldFloat",
+            "type": "float"
+          },
+          {
+            "name": "fieldDouble",
+            "label": "FieldDouble",
+            "type": "double"
+          },
+          {
+            "name": "fieldBoolean",
+            "label": "FieldBoolean",
+            "type": "boolean"
+          },
+          {
+            "name": "fieldLocalDate",
+            "label": "FieldLocalDate",
+            "type": "localDate"
+          },
+          {
+            "name": "fieldZonedDateTime",
+            "label": "FieldZonedDateTime",
+            "type": "zonedDateTime"
+          },
+          {
+            "name": "fieldDuration",
+            "label": "FieldDuration",
+            "type": "duration"
+          },
+          {
+            "name": "fieldUUID",
+            "label": "FieldUUID",
+            "type": "UUID"
+          },
+          {
+            "name": "fieldBlob",
+            "label": "FieldBlob",
+            "type": "blob"
+          },
+          {
+            "name": "fieldAnyBlob",
+            "label": "FieldAnyBlob",
+            "type": "anyBlob"
+          },
+          {
+            "name": "fieldImageBlob",
+            "label": "FieldImageBlob",
+            "type": "imageBlob"
+          },
+          {
+            "name": "fieldTextBlob",
+            "label": "FieldTextBlob",
+            "type": "textBlob"
+          }
+        ]
+      }
+    ]
+  }

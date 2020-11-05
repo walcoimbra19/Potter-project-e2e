@@ -1,0 +1,1 @@
+expect(await {{ labels.singular }}UpdatePage.get{{capitalize name}}Input()).to.eq('2000-12-31', 'Expected {{capitalize name}} value to be equals to 2000-12-31');

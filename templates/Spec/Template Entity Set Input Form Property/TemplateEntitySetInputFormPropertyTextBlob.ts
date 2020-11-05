@@ -1,0 +1,1 @@
+{{ labels.singular }}UpdatePage.set{{capitalize name}}Input('fieldTextBlob'),

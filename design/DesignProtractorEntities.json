@@ -1,0 +1,18 @@
+[
+  {
+    "port": "Design:ProtractorEntities:1-main",
+    "commands": [
+      {
+        "mkdir": "{{project.id}}/src/test/javascript/e2e/entities/{{lower name}}"
+      },
+      {
+        "port": "entitySpec",
+        "design": "Design:EntitySpec:1"
+      },
+      {
+        "port": "entityPO",
+        "design": "Design:EntityPO:1"
+      }
+    ]
+  }
+]

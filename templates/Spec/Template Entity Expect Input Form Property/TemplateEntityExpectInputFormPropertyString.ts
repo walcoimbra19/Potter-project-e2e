@@ -1,0 +1,1 @@
+expect(await {{ labels.singular }}UpdatePage.get{{capitalize name}}Input()).to.eq('{{name}}', 'Expected {{capitalize name}} value to be equals to {{name}}');

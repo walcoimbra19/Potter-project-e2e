@@ -1,0 +1,346 @@
+[
+    {
+        "port": "Design:EntitySpec:1-main",
+        "commands": [
+            {
+                "template": "Template:EntitySpec:1",
+                "output": "{{project.id}}/src/test/javascript/e2e/entities/{{lower name}}/{{lower name}}-spec.ts"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "string"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyString:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "integer"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyInteger:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "long"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyLong:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "bigDecimal"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyBigDecimal:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "float"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyFloat:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "double"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyDouble:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "localDate"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyLocalDate:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "zonedDateTime"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyZonedDateTime:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "duration"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyDuration:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "UUID"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyUUID:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "blob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "anyBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyAnyBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "imageBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyImageBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "textBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyTextBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "selector": {
+            "type": "boolean"
+        },
+        "commands": [
+            {
+                "template": "Template:EntityExpectInputFormPropertyBoolean:1"
+            }
+        ]
+    },
+    {
+        "port": "expect-input-form-property-e2e",
+        "commands": [
+            {
+                "template": "Template:Empty:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "string"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyString:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "integer"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyInteger:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "long"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyLong:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "bigDecimal"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyBigDecimal:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "float"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyFloat:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "double"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyDouble:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "localDate"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyLocalDate:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "zonedDateTime"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyZonedDateTime:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "duration"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyDuration:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "UUID"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyUUID:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "blob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "anyBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyAnyBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "imageBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyImageBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "selector": {
+            "type": "textBlob"
+        },
+        "commands": [
+            {
+                "template": "Template:EntitySetInputFormPropertyTextBlob:1"
+            }
+        ]
+    },
+    {
+        "port": "set-input-form-property-e2e",
+        "commands": [
+            {
+                "template": "Template:Empty:1"
+            }
+        ]
+    }
+]

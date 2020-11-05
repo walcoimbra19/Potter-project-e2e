@@ -1,0 +1,40 @@
+[
+  {
+    "port": "Design:RootE2E:1-main",
+    "commands": [
+      {
+        "mkdir": "{{project.id}}/src/test/javascript/e2e/entities"
+      },
+      {
+        "mkdir": "{{project.id}}/src/test/javascript/e2e/account"
+      },
+      {
+        "mkdir": "{{project.id}}/src/test/javascript/e2e/page-objects"
+      },
+      {
+        "port": "entities-port",
+        "context": "entities"
+      },
+      {
+        "port": "pageObjects-port",
+        "output": "{{project.id}}/src/test/javascript/e2e/page-objects/page-objects.spec.ts"
+      }
+    ]
+  },
+  {
+    "port": "entities-port",
+    "commands": [
+      {
+        "design": "Design:ProtractorEntities:1"
+      }
+    ]
+  },
+  {
+    "port": "pageObjects-port",
+    "commands": [
+      {
+        "template": "Template:PageObjects:1"
+      }
+    ]
+  }
+]

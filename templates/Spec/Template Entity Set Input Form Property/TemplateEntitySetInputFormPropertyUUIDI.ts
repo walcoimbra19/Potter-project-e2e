@@ -1,0 +1,1 @@
+{{ labels.singular }}UpdatePage.set{{capitalize name}}Input('64c99148-3908-465d-8c4a-e510e3ade974'),

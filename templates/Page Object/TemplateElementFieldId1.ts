@@ -1,0 +1,1 @@
+{{name}}Input = element(by.id('field_{{name}}'));

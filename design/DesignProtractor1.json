@@ -1,0 +1,20 @@
+[
+  {
+    "port": "Design:Protractor:1-main",
+    "commands": [
+      {
+        "shell": "rm -rf {{project.id}}"
+      },
+      {
+        "design": "Design:RootE2E:1"
+      },
+      {
+        "shell": "prettier --trailing-comma none --write {{project.id}}"
+      },
+      {
+        "zip": "project.zip",
+        "source": "{{project.id}}"
+      }
+    ]
+  }
+]

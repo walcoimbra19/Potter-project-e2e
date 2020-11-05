@@ -1,0 +1,1 @@
+expect(await {{ labels.singular }}UpdatePage.get{{capitalize name}}Input()).to.eq('64c99148-3908-465d-8c4a-e510e3ade974', 'Expected {{capitalize name}} value to be equals to 64c99148-3908-465d-8c4a-e510e3ade974');
